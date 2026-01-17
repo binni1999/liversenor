@@ -1,0 +1,2 @@
+DATABASE_NAME="binni_db"
+COLLECTION_NAME="sensor"
