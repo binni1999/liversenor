@@ -1,0 +1,8 @@
+go to aws and create an IAM user with the following Policies - 
+Policy:
+	1. AmazonEC2ContainerRegistryFullAccess
+	2. AmazonEC2FullAccess
+	3. AmazonS3FullAccess
+
+now go to user and create access key 
+
