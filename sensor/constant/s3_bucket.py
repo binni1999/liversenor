@@ -1,2 +1,2 @@
-TRAINING_BUCKET_NAME="s"
-PREDICTION_BUCKET_NAME="sensor-datasource"
+TRAINING_BUCKET_NAME="binni-sensor-live-bucket"
+PREDICTION_BUCKET_NAME="binni-sensor-datasource"
