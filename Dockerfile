@@ -1,11 +1,8 @@
-FROM python:3.11-slim
+FROM python:3.10-bookworm
 
+RUN apt update -y && apt install awscli -y  
 WORKDIR /app
 
-COPY requirements.txt .
-RUN pip install --upgrade pip \
-    && pip install --no-cache-dir -r requirements.txt
-
-COPY . .
-
-CMD ["python", "main.py"]
+COPY . /app
+RUN pip install -r requirements.txt
+CMD ["python3", "main.py"]
