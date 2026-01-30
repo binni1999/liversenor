@@ -27,6 +27,7 @@ class TrainingPipeline:
 
     is_pipeline_running=False
     
+    
 
 
     def __init__(self):
